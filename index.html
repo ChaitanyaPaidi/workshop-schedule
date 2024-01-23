@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600&display=swap">
+    <style>
+        body {
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 0); /* Text color */
+            background: rgb(255, 255, 255); /* Background color */
+        }
+
+        header {
+            background-color: rgb(0, 0, 0); /* Header background color */
+            color: rgb(255, 255, 255); /* Header text color */
+            text-align: center;
+            padding: 20px;
+        }
+
+        .schedule {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .day {
+            background-color: rgb(255, 255, 255); /* Day background color */
+            border: 1px solid rgb(217, 217, 217); /* Day border color */
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
+            margin: 20px 0;
+            padding: 20px;
+        }
+
+        h2 {
+            color: rgb(0, 0, 0); /* Day heading color */
+            border-bottom: 2px solid rgb(217, 217, 217); /* Day heading border color */
+            padding-bottom: 10px;
+        }
+
+        .session-list {
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .time {
+            font-weight: bold;
+            margin-right: 10px;
+            color: rgb(0, 0, 0); /* Time color */
+        }
+
+        footer {
+            background-color: rgb(0, 0, 0); /* Footer background color */
+            color: rgb(255, 255, 255); /* Footer text color */
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Workshop Schedule</h1>
+    </header>
+
+    <section class="schedule">
+        <ul>
+            <!-- ... (Remaining HTML remains the same) -->
+            <li class="day" id="day1">
+                <h2>Day 1</h2>
+                <ul class="session-list">
+                    <li><span class="time">HTML -</span>Basic tags in html</li>
+                    <li><span class="time">CSS -</span>Selectors and styling </li>
+                    <li><span class="time">NETFLIX clone -</span>Hands-on project using html and css</li>
+                </ul>
+            </li>
+
+            <li class="day" id="day2">
+                <h2>Day 2</h2>
+                <ul class="session-list">
+                    <li><span class="time">NETFLIX clone -</span>Wrapping up</li>
+                    <li><span class="time">Javascript -</span>The introduction</li>
+                    <li><span class="time">Programming basics -</span>loops,arrays,objects,functions</li>
+                </ul>
+            </li>
+            <li class="day" id="day3">
+                <h2>Day 3</h2>
+                <ul class="session-list">
+                    <li><span class="time">More Javascript -</span>event handlers, DOM manipulation</li>
+                    <li><span class="time"> Asynchronous Javascript -</span>Callbacks, promises </li>
+                    <li><span class="time">The React-Jump -</span>Why react?</li>
+                </ul>
+            </li>
+            <li class="day" id="day4">
+                <h2>Day 4</h2>
+                <ul class="session-list">
+                    <li><span class="time">React -</span>setup and file structure</li>
+                    <li><span class="time"> More react -</span>Understanding state management and hooks</li>
+                    <li><span class="time">NewsHub -</span>A project using react and news API</li>
+                </ul>
+            </li>
+            <li class="day" id="day5">
+                <h2>Day 5</h2>
+                <ul class="session-list">
+                    <li><span class="time">NewsHub -</span>Wrapping up</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- <footer>
+        <p>&copy; 2024 Workshop Schedule</p>
+    </footer> -->
+
+</body>
+</html>
